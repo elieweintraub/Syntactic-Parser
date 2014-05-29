@@ -1,0 +1,24 @@
+Parsing sentence: book that flight through Houston
+The sentence, "book that flight through Houston", is accepted by the given grammar and has 3 valid parses!
+1) ( S ( VP ( Verb "book" ) ( NP ( Det "that" ) ( Nominal ( Nominal ( Noun "flight" ) ) ( PP ( Preposition "through" ) ( NP ( Proper-Noun "Houston" ) ) ) ) ) ) )
+2) ( S ( VP ( VP ( Verb "book" ) ( NP ( Det "that" ) ( Nominal ( Noun "flight" ) ) ) ) ( PP ( Preposition "through" ) ( NP ( Proper-Noun "Houston" ) ) ) ) )
+3) ( S ( VP ( Verb "book" ) ( NP ( Det "that" ) ( Nominal ( Noun "flight" ) ) ) ( PP ( Preposition "through" ) ( NP ( Proper-Noun "Houston" ) ) ) ) )
+
+Parsing sentence: I prefer a flight  from Houston to NWA
+The sentence, "I prefer a flight  from Houston to NWA", is accepted by the given grammar and has 5 valid parses!
+1) ( S ( NP ( Pronoun "I" ) ) ( VP ( Verb "prefer" ) ( NP ( Det "a" ) ( Nominal ( Nominal ( Nominal ( Noun "flight" ) ) ( PP ( Preposition "from" ) ( NP ( Proper-Noun "Houston" ) ) ) ) ( PP ( Preposition "to" ) ( NP ( Proper-Noun "NWA" ) ) ) ) ) ) )
+2) ( S ( NP ( Pronoun "I" ) ) ( VP ( VP ( Verb "prefer" ) ( NP ( Det "a" ) ( Nominal ( Nominal ( Noun "flight" ) ) ( PP ( Preposition "from" ) ( NP ( Proper-Noun "Houston" ) ) ) ) ) ) ( PP ( Preposition "to" ) ( NP ( Proper-Noun "NWA" ) ) ) ) )
+3) ( S ( NP ( Pronoun "I" ) ) ( VP ( Verb "prefer" ) ( NP ( Det "a" ) ( Nominal ( Nominal ( Noun "flight" ) ) ( PP ( Preposition "from" ) ( NP ( Proper-Noun "Houston" ) ) ) ) ) ( PP ( Preposition "to" ) ( NP ( Proper-Noun "NWA" ) ) ) ) )
+4) ( S ( NP ( Pronoun "I" ) ) ( VP ( VP ( VP ( Verb "prefer" ) ( NP ( Det "a" ) ( Nominal ( Noun "flight" ) ) ) ) ( PP ( Preposition "from" ) ( NP ( Proper-Noun "Houston" ) ) ) ) ( PP ( Preposition "to" ) ( NP ( Proper-Noun "NWA" ) ) ) ) )
+5) ( S ( NP ( Pronoun "I" ) ) ( VP ( VP ( Verb "prefer" ) ( NP ( Det "a" ) ( Nominal ( Noun "flight" ) ) ) ( PP ( Preposition "from" ) ( NP ( Proper-Noun "Houston" ) ) ) ) ( PP ( Preposition "to" ) ( NP ( Proper-Noun "NWA" ) ) ) ) )
+
+Parsing sentence: I prefer a book
+The sentence, "I prefer a book", is accepted by the given grammar and has 1 valid parse!
+1) ( S ( NP ( Pronoun "I" ) ) ( VP ( Verb "prefer" ) ( NP ( Det "a" ) ( Nominal ( Noun "book" ) ) ) ) )
+
+Parsing sentence: I hate long flights
+The sentence, "I hate long flights", is not accepted by the given grammar since the token, "hate", is not part of the lexicon!
+
+Parsing sentence: I book a flight from
+The sentence, "I book a flight from", is not accepted by the given grammar!
+

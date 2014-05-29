@@ -1,0 +1,18 @@
+Parsing sentence: the cat chased a dog
+The sentence, "the cat chased a dog", is accepted by the given grammar and has 1 valid parse!
+1) ( S ( NP ( Det "the" ) ( N "cat" ) ) ( VP ( V "chased" ) ( NP ( Det "a" ) ( N "dog" ) ) ) )
+
+Parsing sentence: the dog chased a cat in a dog
+The sentence, "the dog chased a cat in a dog", is accepted by the given grammar and has 2 valid parses!
+1) ( S ( NP ( Det "the" ) ( N "dog" ) ) ( VP ( V "chased" ) ( NP ( NP ( Det "a" ) ( N "cat" ) ) ( PP ( P "in" ) ( NP ( Det "a" ) ( N "dog" ) ) ) ) ) )
+2) ( S ( NP ( Det "the" ) ( N "dog" ) ) ( VP ( VP ( V "chased" ) ( NP ( Det "a" ) ( N "cat" ) ) ) ( PP ( P "in" ) ( NP ( Det "a" ) ( N "dog" ) ) ) ) )
+
+Parsing sentence: the dog sat in a cat
+The sentence, "the dog sat in a cat", is not accepted by the given grammar!
+
+Parsing sentence: dog sat
+The sentence, "dog sat", is not accepted by the given grammar!
+
+Parsing sentence: cow
+The sentence, "cow", is not accepted by the given grammar since the token, "cow", is not part of the lexicon!
+

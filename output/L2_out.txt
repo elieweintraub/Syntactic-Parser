@@ -1,0 +1,3 @@
+Parsing sentence: I time flies like an arrow
+The sentence, "I time flies like an arrow", is not accepted by the given grammar!
+
